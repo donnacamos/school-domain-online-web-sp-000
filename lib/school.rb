@@ -21,5 +21,6 @@ class School
     @roster[number] 
   end 
   def sort 
-    @
+    @roster.sort do |name, grade| 
+      
 end 
